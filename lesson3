@@ -1,0 +1,57 @@
+LESSON:3
+
+==================================================================================
+
+1,Find all the Toy Story movies
+
+                 SELECT * FROM movies where title like'toy%';
+
+==================================================================================
+
+2,Find all the movies directed by John Lasseter
+
+                 SELECT * FROM movies where director like'john%';
+
+==================================================================================
+
+3,Find all the movies (and director) not directed by John Lasseter
+
+                      SELECT * FROM movies where not director like'john%';
+
+==================================================================================
+
+4,Find all the WALL-* movies
+
+                        SELECT * FROM movies where title like'WALL%';
+
+===================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

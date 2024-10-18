@@ -1,0 +1,32 @@
+#LESSON:1
+========================================================
+
+1,Find the title of each film
+
+                    SELECT title from movies;
+
+========================================================
+
+2,Find the director of each film
+
+                     SELECT director from movies;
+
+========================================================
+
+3,Find the title and director of each film
+
+                    SELECT title,director from movies;
+
+========================================================
+
+4,Find the title and year of each film
+
+                         SELECT title,year from movies;
+
+========================================================
+
+5,Find all the information about each film
+
+                     SELECT * from movies;
+
+=======================================================
